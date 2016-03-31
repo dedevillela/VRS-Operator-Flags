@@ -1,6 +1,6 @@
 # VRS-Operator-Flags
 Custom operator flags for Virtual Radar Server.
-*(Bandeiras de operadores personalizadas para o Virtual Radar Server.)*
+> *(Bandeiras de operadores personalizadas para o Virtual Radar Server.)*
 
 ##Prerequisites
 - VRS installed and running
