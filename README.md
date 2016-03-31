@@ -28,3 +28,5 @@ Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.
 ##Contributions (Contribuições)
 
 Feel free to download and share these files, suggest corrections, or send requests for more operator flags, as I'm constantly updating this repository with more custom flags.
+
+> *Sinta-se livre para baixar e compartilhar esses arquivos, sugerir correções, ou enviar pedidos para mais bandeiras de operadores, pois irei atualizar constantemente este repositório com mais bandeiras personalizadas.*
