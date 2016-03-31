@@ -17,7 +17,7 @@ Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.
  
 > *Copie os arquivos desejados contidos na pasta 'OperatorFlags' que você acabou de baixar, e cole-os na sua pasta "Operator Flags" configurada pela aba em Ferramentas/Opções/Fontes de Dados no VRS.*
 
-- Clear your browser cache.
+- Clear your browser cache. 
  
 > *Limpe o cache do seu navegador.*
 
