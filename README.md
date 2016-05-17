@@ -3,9 +3,9 @@ Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.
 > *Bandeiras de operadores personalizadas para o [Virtual Radar Server](https://www.virtualradarserver.co.uk "Página do Virtual Radar Server").*
 
 ##Prerequisites (Pré-Requisitos)
-- VRS installed and running.
+- VRS installed and running, with the Custom Content Plugin also installed and enabled.
  
-> *VRS instalado e rodando.*
+> *VRS instalado e rodando, com o Custom Content Plugin também instalado e habilitado.*
 
 ##Instructions (Instruções)
 
