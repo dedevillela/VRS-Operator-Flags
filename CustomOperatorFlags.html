@@ -68,10 +68,10 @@
     function customFormatOperatorIcaoImageHtml(manufacturer, operatorIcao, registration, icao)
     {
         var codeToUse = '';
-        codeToUse = customPipeSeparatedCode(codeToUse, registration);
-        codeToUse = customPipeSeparatedCode(codeToUse, manufacturer);
+        codeToUse = customPipeSeparatedCode(codeToUse, registration);        
         codeToUse = customPipeSeparatedCode(codeToUse, operatorIcao);
         codeToUse = customPipeSeparatedCode(codeToUse, icao);
+	codeToUse = customPipeSeparatedCode(codeToUse, manufacturer);
         
         // The rest of this was copied from format.js operatorIcaoImageHtml
         var size = VRS.globalOptions.aircraftOperatorFlagSize;
