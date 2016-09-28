@@ -35,3 +35,8 @@ Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.
 Feel free to download and share these files, suggest corrections, or send requests for more operator flags, as I'm constantly updating this repository with new custom flags.
 
 > *Sinta-se livre para baixar e compartilhar esses arquivos, sugerir correções, ou enviar pedidos para mais bandeiras de operadores, pois irei atualizar constantemente este repositório com novas bandeiras personalizadas.*
+
+##Other Projects (Outros Projetos)
+
+![VRS Country Flags](http://b.repl.ca/v1/VRS-Country_Flags-green.png)
+![VRS Silhouettes](http://b.repl.ca/v1/VRS-Silhouettes-lightgreen.png)
