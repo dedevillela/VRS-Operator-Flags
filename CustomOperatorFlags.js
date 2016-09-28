@@ -2,8 +2,6 @@
     if(VRS && VRS.globalDispatch && VRS.serverConfig) {
         VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
             if(VRS.renderPropertyHandlers) {
-                // Overwrite the standard operator flag renderer with a custom one.
-                // THIS MIGHT NEED TO BE MODIFIED WHEN NEW VERSIONS OF VRS ARE RELEASED
                 VRS.renderPropertyHandlers[VRS.RenderProperty.OperatorFlag] = new VRS.RenderPropertyHandler({
                     property:               VRS.RenderProperty.OperatorFlag,
                     surfaces:               VRS.RenderSurface.List + VRS.RenderSurface.DetailHead + VRS.RenderSurface.InfoWindow,
@@ -13,9 +11,7 @@
                     headingAlignment:       VRS.Alignment.Centre,
                     suppressLabelCallback:  function() { return true; },
                     fixedWidth:             function() { return VRS.globalOptions.aircraftOperatorFlagSize.width.toString() + 'px'; },
-                    // Changed the following line to redraw the flag if the manufacturer changes...
                     hasChangedCallback:     function(aircraft) { return aircraft.operatorIcao.chg || aircraft.icao.chg || aircraft.registration.chg || aircraft.manufacturer.chg; },
-                    // And changed this line to call our custom function to build the <img> tag instead of the standard one...
                     renderCallback:         function(aircraft) { return customFormatOperatorIcaoImageHtmlAircraft(aircraft); },
                     tooltipChangedCallback: function(aircraft) { return aircraft.operatorIcao.chg || aircraft.operator.chg; },
                     tooltipCallback:        function(aircraft) { return aircraft.formatOperatorIcaoAndName(); }
@@ -43,7 +39,6 @@
             }
             
             if(VRS.reportPropertyHandlers) {
-                // Modifies the operator flag on reports
                 VRS.reportPropertyHandlers[VRS.ReportAircraftProperty.OperatorFlag] = new VRS.ReportPropertyHandler({
                     property:           VRS.ReportAircraftProperty.OperatorFlag,
                     surfaces:           VRS.ReportSurface.List + VRS.ReportSurface.DetailHead,
@@ -51,7 +46,6 @@
                     labelKey:           'OperatorFlag',
                     headingAlignment:   VRS.Alignment.Centre,
                     fixedWidth:         function() { return VRS.globalOptions.aircraftOperatorFlagSize.width.toString() + 'px'; },
-                    // Changed the following line to indicate that it has a value if the manufacturer is present
                     hasValue:           function(/** VRS_JSON_REPORT_AIRCRAFT */ json) { return !!json.opFlag || !!json.icao || !!json.reg || !!json.manufacturer; },
                     renderCallback:     function(/** VRS_JSON_REPORT_AIRCRAFT */ json) { return customFormatOperatorIcaoImageHtml(json.manufacturer, json.opFlag, json.reg, json.icao); },
                     tooltipCallback:    function(/** VRS_JSON_REPORT_AIRCRAFT */ json) { return VRS.format.operatorIcaoAndName(json.owner, json.opFlag); }
@@ -72,8 +66,7 @@
         codeToUse = customPipeSeparatedCode(codeToUse, operatorIcao);
         codeToUse = customPipeSeparatedCode(codeToUse, icao);
 	codeToUse = customPipeSeparatedCode(codeToUse, manufacturer);
-        
-        // The rest of this was copied from format.js operatorIcaoImageHtml
+
         var size = VRS.globalOptions.aircraftOperatorFlagSize;
         var result = '<img src="images/File-' + encodeURIComponent(codeToUse);
         if(VRS.browserHelper.isHighDpi()) result += '/HiDpi';
