@@ -1,4 +1,4 @@
-# VRS-Operator-Flags [![MIT License](http://b.repl.ca/v1/License-MIT-red.png)](LICENSE) ![VRS version 2.4.0](http://b.repl.ca/v1/VRS_version-2.4.0-brightgreen.png)
+# VRS-Operator-Flags [![MIT License](http://b.repl.ca/v1/License-MIT-red.png)](LICENSE) ![VRS version 2.4.0](http://b.repl.ca/v1/VRS_version-2.4.0-blue.png)
 
 Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.co.uk "Virtual Radar Server's Homepage") (a.k.a. VRS).
 > *Bandeiras de operadores personalizadas para o [Virtual Radar Server](https://www.virtualradarserver.co.uk "Página do Virtual Radar Server").*
