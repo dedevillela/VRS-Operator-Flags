@@ -1,4 +1,4 @@
-# VRS-Operator-Flags [![VRS](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/dedevillela/VRS-Operator-Flags/master/LICENSE)
+# VRS-Operator-Flags [![VRS](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub license](https://img.shields.io/badge/license-AGPL-red.svg)](https://raw.githubusercontent.com/dedevillela/VRS-Operator-Flags/master/LICENSE) [![GitHub downloads](https://img.shields.io/github/downloads/dedevillela/VRS-Operator-Flags.svg)](https://github.com/dedevillela/VRS-Operator-Flags/network) 
 
 Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.co.uk "Virtual Radar Server's Homepage") (a.k.a. VRS).
 > *Bandeiras de operadores personalizadas para o [Virtual Radar Server](https://www.virtualradarserver.co.uk "Página do Virtual Radar Server").*
