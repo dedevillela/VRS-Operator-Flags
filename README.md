@@ -38,7 +38,7 @@ Feel free to download and share these files, suggest corrections, or send reques
 
 ##Other Projects (Outros Projetos)
 
-![VRS Country Flags](http://b.repl.ca/v1/VRS-Country_Flags-green.png)
+[![VRS Country Flags](http://b.repl.ca/v1/VRS-Country_Flags-green.png)](https://github.com/dedevillela/VRS-Country-Flags)
 
-![VRS Silhouettes](http://b.repl.ca/v1/VRS-Silhouettes-brightgreen.png)
+[![VRS Silhouettes](http://b.repl.ca/v1/VRS-Silhouettes-brightgreen.png)](https://github.com/dedevillela/VRS-Silhouettes/)
 
