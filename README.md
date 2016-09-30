@@ -38,8 +38,8 @@ Feel free to download and share these files, suggest corrections, or send reques
 
 ##Other Projects (Outros Projetos)
 
+[![VRS Custom Links](http://b.repl.ca/v1/VRS-Custom_Links-yellow.png)](https://github.com/dedevillela/VRS-Custom-links/)
+
 [![VRS Country Flags](http://b.repl.ca/v1/VRS-Country_Flags-green.png)](https://github.com/dedevillela/VRS-Country-Flags)
 
 [![VRS Silhouettes](http://b.repl.ca/v1/VRS-Silhouettes-brightgreen.png)](https://github.com/dedevillela/VRS-Silhouettes/)
-
-[![VRS Custom Links](http://b.repl.ca/v1/VRS-Custom_Links-yellow.png)](https://github.com/dedevillela/VRS-Custom-links/)
