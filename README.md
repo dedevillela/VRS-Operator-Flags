@@ -42,3 +42,4 @@ Feel free to download and share these files, suggest corrections, or send reques
 
 [![VRS Silhouettes](http://b.repl.ca/v1/VRS-Silhouettes-brightgreen.png)](https://github.com/dedevillela/VRS-Silhouettes/)
 
+[![VRS Custom Links](http://b.repl.ca/v1/VRS-Custom_Links-yellow.png)](https://github.com/dedevillela/VRS-Custom-links/)
