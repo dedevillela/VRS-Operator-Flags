@@ -1,4 +1,4 @@
-# VRS-Operator-Flags [![MIT License](http://b.repl.ca/v1/License-MIT-red.png)](LICENSE) [![VRS version 2.4](http://b.repl.ca/v1/VRS_version-2.4-blue.png)](http://virtualradarserver.co.uk/Download.aspx) [![ADS-B Mode-S](http://b.repl.ca/v1/ADS--B-Mode--S-lightgrey.png)](#)
+# VRS-Operator-Flags [![MIT License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE) [![VRS version 2.4](https://img.shields.io/badge/VRS_version-2.4-blue.svg)](http://virtualradarserver.co.uk/Download.aspx) [![ADS-B Mode-S](https://img.shields.io/badge/ADS--B-Mode--S-lightgrey.svg)](#)
 
 Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.co.uk "Virtual Radar Server's Homepage") (a.k.a. VRS).
 > *Bandeiras de operadores personalizadas para o [Virtual Radar Server](https://www.virtualradarserver.co.uk "Página do Virtual Radar Server").*
@@ -38,8 +38,8 @@ Feel free to download and share these files, suggest corrections, or send reques
 
 ##Other Projects (Outros Projetos)
 
-[![VRS Custom Links](http://b.repl.ca/v1/VRS-Custom_Links-yellow.png)](https://github.com/dedevillela/VRS-Custom-links/)
+[![VRS Custom Links](https://img.shields.io/badge/VRS-Custom_Links-yellow.svg)](https://github.com/dedevillela/VRS-Custom-links/)
 
-[![VRS Country Flags](http://b.repl.ca/v1/VRS-Country_Flags-green.png)](https://github.com/dedevillela/VRS-Country-Flags)
+[![VRS Custom Links](https://img.shields.io/badge/VRS-Custom_Links-yellow.svg)](https://github.com/dedevillela/VRS-Custom-links/)
 
-[![VRS Silhouettes](http://b.repl.ca/v1/VRS-Silhouettes-brightgreen.png)](https://github.com/dedevillela/VRS-Silhouettes/)
+[![VRS Country Flags](https://img.shields.io/badge/VRS-Country_Flags-green.svg)](https://github.com/dedevillela/VRS-Country-Flags)
