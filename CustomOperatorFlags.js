@@ -80,13 +80,11 @@
     
     function customPipeSeparatedCode(text, code)
     {
-        var result = text;
-        
+        var result = text;        
         if(code && code.length) {
             if(result.length) result += '|';
             result += code;
         }
-
         return result;
     }
 </script>
