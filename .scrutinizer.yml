@@ -43,8 +43,8 @@ checks:
         check_switch_default_not_last: true
         check_switch_default_only: true
         check_switch_no_default: true
-        'check_switch_no_uncommented_fallthrough"': true
-        'check_switch_unintended label': true
+        check_switch_no_uncommented_fallthrough: true
+        check_switch_unintended label: true
         check_too_many_arguments: true
         check_try_statement: true
         check_unnecessary_continue: true
@@ -85,5 +85,4 @@ checks:
         no_label_var: true
         no_loop_var_assign: true
         code_rating: true
-        duplication: true
 build: true
