@@ -84,4 +84,6 @@ checks:
         no_invalid_regexp: true
         no_label_var: true
         no_loop_var_assign: true
+        code_rating: true
+        duplication: true
 build: true
