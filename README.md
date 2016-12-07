@@ -16,7 +16,7 @@ Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.
  
 > *Copie os arquivos contidos na pasta 'OperatorFlags' que você acabou de baixar, e cole-os na sua pasta "Operator Flags" configurada pela aba em Ferramentas/Opções/Fontes de Dados no VRS.*
 
-- With the Custom Content Plugin enabled on VRS, go to "Tools>Plugins..." and press the "Options" button. Then fill in the field "Inject file:" with absolute path to you local file "CustomOperatorFlags.html", set it to "END of HEAD", with and asterisk (*) characther on the "Address:" field, and check "Enabled" to activate the plugin. Press the "OK" button, then the "Close" button.
+- With the Custom Content Plugin enabled on VRS, go to "Tools>Plugins..." and press the "Options" button. Then fill in the field "Inject file:" with absolute path to you local file "CustomOperatorFlags.js", set it to "END of HEAD", with and asterisk (*) characther on the "Address:" field, and check "Enabled" to activate the plugin. Press the "OK" button, then the "Close" button.
  
 > *Com o Custom Content Plugin habilitado no VRS, vá até "Ferramentas>Plugins..." e pressione o botão "Opções". Então preencha o campo "Inserir arquivo:" com o caminho absoluto para seu arquivo local "CustomOperatorFlags.html", em "END of HEAD", com um caractere asterisco no campo "Endereço:", e marque "Habilitado" para ativar o plugin. Pressione o botão "Ok", e depois o botão "Fechar".*
 
