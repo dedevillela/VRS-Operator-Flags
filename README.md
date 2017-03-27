@@ -2,12 +2,12 @@
 Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.co.uk "Virtual Radar Server's Homepage") (a.k.a. VRS).
 > *Bandeiras de operadores personalizadas para o [Virtual Radar Server](https://www.virtualradarserver.co.uk "Página do Virtual Radar Server").*
 
-##Prerequisites (Pré-Requisitos)
+## Prerequisites (Pré-Requisitos)
 - VRS installed and running, with the [Custom Content Plugin](http://www.virtualradarserver.co.uk/documentation/CustomContent/Default.aspx "Custom Content Plugin") also installed and enabled.
  
 > *VRS instalado e rodando, com o [Custom Content Plugin](http://www.virtualradarserver.co.uk/documentation/CustomContent/Default.aspx "Custom Content Plugin") também instalado e habilitado.*
 
-##Instructions (Instruções)
+## Instructions (Instruções)
 - Clone or download the repo into a directory on the machine where VRS is running. Ensure you do not place the files under the Virtual Radar Server directory, since they could be overwritten on upgrades.
  
 > *Clone ou baixe o repositório em um diretório na máquina onde está rodando o VRS. Certifique-se de não colocar os arquivos no diretório "Virtual Radar Server", uma vez que eles podem ser sobrescritos em atualizações.*
@@ -28,15 +28,15 @@ Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.
  
 > *Aproveite!*
 
-##Acknowledgments (Agradecimentos)
+## Acknowledgments (Agradecimentos)
 This project was only possible thanks to the invaluable help of many individuals and communities, especially the creator of the VRS, Andrew Whewell, always solicitous in [![his forum](https://img.shields.io/badge/VRS-Forum-blue.svg)](https://forum.virtualradarserver.co.uk/); Andrew Hill, whose [![flights.hillhome.org](https://img.shields.io/badge/flights-hillhome.org-ADD6FF.svg)](http://flights.hillhome.org/) site inspired me deeply; and all of the [![ADS-B Brasil](https://img.shields.io/badge/ADS--B-Brasil-lightgrey.svg)](http://bradsb.com/forum/index.php) community, including Ramon Martins and Jaime Hempke, which together maintain the excellent site [![TrafegoAereo.com](https://img.shields.io/badge/Trafego-Aereo-yellowgreen.svg)](http://trafegoaereo.com/).
 
 > *Este projeto só foi possível graças a inestimável ajuda de diversas pessoas e comunidades, em especial ao criador do VRS, Andrew Whewell, sempre solícito no [![seu fórum](https://img.shields.io/badge/VRS-Forum-blue.svg)](https://forum.virtualradarserver.co.uk/); Andrew Hill, cujo site [![flights.hillhome.org](https://img.shields.io/badge/flights-hillhome.org-ADD6FF.svg)](http://flights.hillhome.org/) me inspirou profundamente; e a todos da comunidade [![ADS-B Brasil](https://img.shields.io/badge/ADS--B-Brasil-lightgrey.svg)](http://bradsb.com/forum/index.php), entre eles Ramon Martins e Jaime Hempke, que juntos mantêm o excelente site [![TrafegoAereo.com](https://img.shields.io/badge/Trafego-Aereo-yellowgreen.svg)](http://trafegoaereo.com/).*
 
-##Contributions (Contribuições)
-Feel free to download and share these files, suggest corrections, or send requests for more operator flags, as I'm constantly updating this repository with new custom flags.
+## Contributions (Contribuições)
+Feel free to download and share these files, fork and send pull requests, suggest corrections, or send requests for more operator flags, as I'm constantly updating this repository with new custom flags.
 
-> *Sinta-se livre para baixar e compartilhar esses arquivos, sugerir correções, ou enviar pedidos para mais bandeiras de operadores, pois irei atualizar constantemente este repositório com novas bandeiras personalizadas.*
+> *Sinta-se livre para baixar e compartilhar esses arquivos, clonar e solicitar envio de modificações, sugerir correções, ou enviar pedidos para mais bandeiras de operadores, pois irei atualizar constantemente este repositório com novas bandeiras personalizadas.*
 
 ##Other Projects (Outros Projetos)
 
