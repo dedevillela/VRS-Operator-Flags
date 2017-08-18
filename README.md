@@ -38,7 +38,7 @@ Feel free to download and share these files, fork and send pull requests, sugges
 
 > *Sinta-se livre para baixar e compartilhar esses arquivos, clonar e solicitar envio de modificações, sugerir correções, ou enviar pedidos para mais bandeiras de operadores, pois irei atualizar constantemente este repositório com novas bandeiras personalizadas.*
 
-##Other Projects (Outros Projetos)
+## Other Projects (Outros Projetos)
 
 [![VRS Aircraft Markers](https://img.shields.io/badge/VRS-Aircraft_Markers-orange.svg)](https://github.com/dedevillela/VRS-Aircraft-Markers)
 
