@@ -1,4 +1,4 @@
-<script type="text/javascript">
+/** global: VRS */
     if(VRS && VRS.globalDispatch && VRS.serverConfig) {
         VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
             if(VRS.renderPropertyHandlers) {
@@ -90,4 +90,3 @@
         }
         return result;
     }
-</script>
