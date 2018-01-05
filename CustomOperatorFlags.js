@@ -17,7 +17,6 @@
                     tooltipCallback:        function(aircraft) { return aircraft.formatOperatorIcaoAndName(); }
                 });
 
-
                 VRS.renderPropertyHandlers[VRS.RenderProperty.SilhouetteAndOpFlag] = new VRS.RenderPropertyHandler({
                     property:               VRS.RenderProperty.SilhouetteAndOpFlag,
                     surfaces:               VRS.RenderSurface.List,
