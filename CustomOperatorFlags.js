@@ -1,5 +1,6 @@
 /** global: VRS */
-    if(VRS && VRS.globalDispatch && VRS.serverConfig) {
+    <script type="text/javascript">
+	if(VRS && VRS.globalDispatch && VRS.serverConfig) {
         VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
             if(VRS.renderPropertyHandlers) {
                 VRS.renderPropertyHandlers[VRS.RenderProperty.OperatorFlag] = new VRS.RenderPropertyHandler({
@@ -89,3 +90,4 @@
         }
         return result;
     }
+</script>
