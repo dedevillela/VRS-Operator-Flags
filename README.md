@@ -8,7 +8,7 @@ Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.
 ## Instructions
 - Clone or download the repo into a directory on the machine where VRS is running. Ensure you do not place the files under the Virtual Radar Server directory, since they could be overwritten on upgrades.
 
-- Copy the desired files contained in the 'OperatorFlags' folder you've just downloaded, and paste them into the VRS 'Operator Flags' folder configured under the Tools/Options/Data Sources tab.
+- Copy the desired files contained in the 'OperatorFlags' folder you've just downloaded, and paste them into the VRS 'Operator Flags' folder configured under the Tools/Options/Data Sources tab. 
 
 - With the Custom Content Plugin enabled on VRS, go to "Tools>Plugins..." and press the "Options" button. Then fill in the field "Inject file:" with absolute path to your local file "CustomOperatorFlags.js" in the *release* folder. For example `C:\Downloads\VRS-Operator-Flags\release\CustomOperatorFlags.js` then, set set the values for **At:** to *END* of *HEAD*. Set the *Address* field  to asterisk (*), and check "Enabled" to activate the plugin. Press the "OK" button.
 
