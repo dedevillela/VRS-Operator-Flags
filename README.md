@@ -8,7 +8,7 @@ Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.
 ## Instructions
 - Clone or download the repo into a directory on the machine where VRS is running. Ensure you do not place the files under the Virtual Radar Server directory, since they could be overwritten on upgrades.
 
-- Open a text editor and modify the file "CustomOperatorFlags.js" so that the first line of code begins with <script> and the last line ends with </ script>, and save the file.
+- Open a text editor and modify the file "CustomOperatorFlags.js" so that the first line of code begins with <script> and the last line ends with </script>, and save the file.
 
 - Copy the desired files contained in the 'OperatorFlags' folder you've just downloaded, and paste them in your VRS 'Operator Flags' folder configured under the Tools/Options/Data Sources tab.
 
