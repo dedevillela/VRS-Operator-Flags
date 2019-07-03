@@ -5,12 +5,12 @@
                 VRS.renderPropertyHandlers[VRS.RenderProperty.OperatorFlag] = new VRS.RenderPropertyHandler({
                     property:               VRS.RenderProperty.OperatorFlag,
                     surfaces:               VRS.RenderSurface.List + VRS.RenderSurface.DetailHead + VRS.RenderSurface.InfoWindow,
-                    headingKey:             'ListOperatorFlag',
-                    labelKey:               'OperatorFlag',
+                    headingKey:             "ListOperatorFlag",
+                    labelKey:               "OperatorFlag",
                     sortableField:          VRS.AircraftListSortableField.OperatorIcao,
                     headingAlignment:       VRS.Alignment.Centre,
                     suppressLabelCallback:  function() { return true; },
-                    fixedWidth:             function() { return VRS.globalOptions.aircraftOperatorFlagSize.width.toString() + 'px'; },
+                    fixedWidth:             function() { return VRS.globalOptions.aircraftOperatorFlagSize.width.toString() + "px"; },
                     hasChangedCallback:     function(aircraft) { return aircraft.operatorIcao.chg || aircraft.icao.chg || aircraft.registration.chg || aircraft.manufacturer.chg; },
                     renderCallback:         function(aircraft) { return customFormatOperatorIcaoImageHtmlAircraft(aircraft); },
                     tooltipChangedCallback: function(aircraft) { return aircraft.operatorIcao.chg || aircraft.operator.chg; },
@@ -20,8 +20,8 @@
                 VRS.renderPropertyHandlers[VRS.RenderProperty.SilhouetteAndOpFlag] = new VRS.RenderPropertyHandler({
                     property:               VRS.RenderProperty.SilhouetteAndOpFlag,
                     surfaces:               VRS.RenderSurface.List,
-                    headingKey:             'ListModelSilhouetteAndOpFlag',
-                    labelKey:               'SilhouetteAndOpFlag',
+                    headingKey:             "ListModelSilhouetteAndOpFlag",
+                    labelKey:               "SilhouetteAndOpFlag",
                     headingAlignment:       VRS.Alignment.Centre,
                     sortableField:          VRS.AircraftListSortableField.OperatorIcao,
                     fixedWidth:             function() { return Math.max(VRS.globalOptions.aircraftSilhouetteSize.width, VRS.globalOptions.aircraftOperatorFlagSize.width).toString() + 'px'; },
@@ -33,7 +33,7 @@
                     tooltipCallback:        function(aircraft) {
                         var silhouetteTooltip = aircraft.formatModelIcaoNameAndDetail();
                         var opFlagTooltip = aircraft.formatOperatorIcaoAndName();
-                        return silhouetteTooltip && opFlagTooltip ? silhouetteTooltip + '. ' + opFlagTooltip : silhouetteTooltip ? silhouetteTooltip : opFlagTooltip;
+                        return silhouetteTooltip && opFlagTooltip ? silhouetteTooltip + ". " + opFlagTooltip : silhouetteTooltip ? silhouetteTooltip : opFlagTooltip;
                     }
                 });
             }
@@ -61,7 +61,7 @@
     
     function customFormatOperatorIcaoImageHtml(manufacturer, operatorIcao, registration, icao)
     {
-        var codeToUse = '';
+        var codeToUse = "";
         codeToUse = customPipeSeparatedCode(codeToUse, registration);        
         codeToUse = customPipeSeparatedCode(codeToUse, operatorIcao);
         codeToUse = customPipeSeparatedCode(codeToUse, icao);
