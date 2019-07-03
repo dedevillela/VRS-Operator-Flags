@@ -4,8 +4,8 @@
         var result = text;        
         if(code && code.length) {
             if(result.length) {
-	        result += "|";
-	    }
+                result += "|";
+            }
             result += code;
         }
         return result;
@@ -21,8 +21,8 @@
         var size = VRS.globalOptions.aircraftOperatorFlagSize;
         var result = "<img src=\"images/File-" + encodeURIComponent(codeToUse);
         if(VRS.browserHelper.isHighDpi()) {
-	    result += "/HiDpi";
-	}
+            result += "/HiDpi";
+        }
         result += "/OpFlag.png\"" +
             " width=\"" + size.width.toString() + "px\"" +
             " height=\"" + size.height.toString() + "px\"" +
