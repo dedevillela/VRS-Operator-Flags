@@ -78,7 +78,7 @@
                     headingKey: "ListOperatorFlag",
                     labelKey: "OperatorFlag",
                     headingAlignment: VRS.Alignment.Centre,
-                    fixedWidth: function() { return VRS.globalOptions.aircraftOperatorFlagSize.width.toString() + "px"; },
+                    fixedWidth() { return VRS.globalOptions.aircraftOperatorFlagSize.width.toString() + "px"; },
                     hasValue(/* VRS_JSON_REPORT_AIRCRAFT */ json) { return !!json.opFlag || !!json.icao || !!json.reg || !!json.manufacturer; },
                     renderCallback(/* VRS_JSON_REPORT_AIRCRAFT */ json) { return customFormatOperatorIcaoImageHtml(json.manufacturer, json.opFlag, json.reg, json.icao); },
                     tooltipCallback(/* VRS_JSON_REPORT_AIRCRAFT */ json) { return VRS.format.operatorIcaoAndName(json.owner, json.opFlag); }
