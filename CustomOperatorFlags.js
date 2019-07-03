@@ -1,4 +1,35 @@
 /* global VRS */
+    function customPipeSeparatedCode(text, code)
+    {
+        var result = text;        
+        if(code && code.length) {
+            if(result.length) result += '|';
+            result += code;
+        }
+        return result;
+    }
+    function customFormatOperatorIcaoImageHtml(manufacturer, operatorIcao, registration, icao)
+    {
+        var codeToUse = "";
+        codeToUse = customPipeSeparatedCode(codeToUse, registration);        
+        codeToUse = customPipeSeparatedCode(codeToUse, operatorIcao);
+        codeToUse = customPipeSeparatedCode(codeToUse, icao);
+	codeToUse = customPipeSeparatedCode(codeToUse, manufacturer);
+
+        var size = VRS.globalOptions.aircraftOperatorFlagSize;
+        var result = '<img src="images/File-' + encodeURIComponent(codeToUse);
+        if(VRS.browserHelper.isHighDpi()) result += '/HiDpi';
+        result += '/OpFlag.png"' +
+            ' width="' + size.width.toString() + 'px"' +
+            ' height="' + size.height.toString() + 'px"' +
+            ' />';
+
+        return result;
+    }
+    function customFormatOperatorIcaoImageHtmlAircraft(aircraft)
+    {
+        return customFormatOperatorIcaoImageHtml(aircraft.manufacturer.val, aircraft.operatorIcao.val, aircraft.registration.val, aircraft.icao.val);
+    }
     if(VRS && VRS.globalDispatch && VRS.serverConfig) {
         VRS.globalDispatch.hook(VRS.globalEvent.bootstrapCreated, function(bootStrap) {
             if(VRS.renderPropertyHandlers) {
@@ -50,35 +81,4 @@
                 });
             }
         });
-    }
-    function customFormatOperatorIcaoImageHtmlAircraft(aircraft)
-    {
-        return customFormatOperatorIcaoImageHtml(aircraft.manufacturer.val, aircraft.operatorIcao.val, aircraft.registration.val, aircraft.icao.val);
-    }
-    function customFormatOperatorIcaoImageHtml(manufacturer, operatorIcao, registration, icao)
-    {
-        var codeToUse = "";
-        codeToUse = customPipeSeparatedCode(codeToUse, registration);        
-        codeToUse = customPipeSeparatedCode(codeToUse, operatorIcao);
-        codeToUse = customPipeSeparatedCode(codeToUse, icao);
-	codeToUse = customPipeSeparatedCode(codeToUse, manufacturer);
-
-        var size = VRS.globalOptions.aircraftOperatorFlagSize;
-        var result = '<img src="images/File-' + encodeURIComponent(codeToUse);
-        if(VRS.browserHelper.isHighDpi()) result += '/HiDpi';
-        result += '/OpFlag.png"' +
-            ' width="' + size.width.toString() + 'px"' +
-            ' height="' + size.height.toString() + 'px"' +
-            ' />';
-
-        return result;
-    }
-    function customPipeSeparatedCode(text, code)
-    {
-        var result = text;        
-        if(code && code.length) {
-            if(result.length) result += '|';
-            result += code;
-        }
-        return result;
     }
