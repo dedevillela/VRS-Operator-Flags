@@ -14,7 +14,7 @@ Custom operator flags for [Virtual Radar Server](https://www.virtualradarserver.
 -   Enjoy!
 
 ## Acknowledgments
-This project was only possible thanks to the invaluable help of many individuals and communities, especially the creator of the VRS, Andrew Whewell, always solicitous in [![his forum](https://img.shields.io/badge/VRS-Forum-blue.svg)](https://forum.virtualradarserver.co.uk/); Andrew Hill, whose [![flights.hillhome.org](https://img.shields.io/badge/flights-hillhome.org-ADD6FF.svg)](http://flights.hillhome.org/) site inspired me deeply; and all of the [![ADS-B Brasil](https://img.shields.io/badge/ADS--B-Brasil-lightgrey.svg)](http://bradsb.com/forum/index.php) community, including Ramon Martins and Jaime Hempke, which together maintain the excellent site [![TrafegoAereo.com](https://img.shields.io/badge/Trafego-Aereo-yellowgreen.svg)](http://trafegoaereo.com/).
+This project was only possible thanks to the invaluable help of many individuals and communities, especially the creator of the VRS, Andrew Whewell, always solicitous in [his forum](https://forum.virtualradarserver.co.uk/); Andrew Hill, whose [flights.hillhome.org](http://flights.hillhome.org/) site inspired me deeply; and all of the [ADS-B Brasil](http://bradsb.com/forum/index.php) community, including Ramon Martins and Jaime Hempke, which together maintain the excellent site [TrafegoAereo.com.br](http://trafegoaereo.com.br/).
 
 ## Contributions
 Feel free to download and share these files, fork and send pull requests, suggest corrections, or send requests for more operator flags, as I'm constantly updating this repository with new custom flags.
